@@ -4,7 +4,7 @@ import babyYoda from './assets/babyyoda.png'
 export default function Headshot() {
     return (
         <>
-            <img src={babyYoda} alt="Baby yoda with fitted hat" />
+            <img src={babyYoda} className="headshot" alt="Baby yoda with fitted hat" />
         </>
     )
 }
