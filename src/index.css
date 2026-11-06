@@ -51,6 +51,12 @@ p {
 
 /* Layout */
 
+button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .app-body {
   display: flex;
   flex-direction: column;
@@ -64,12 +70,25 @@ p {
   width: 100%;
 }
 
+.information-text-container h1, 
+.information-text-container h3,
+.information-text-container p {
+  margin: 0;
+}
+
+.information-text-container h3 {
+  color: #F3BF99;
+}
+
 .information-text-container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 0px;
+  gap: 10px;
+  padding: 20px 0px;
 }
+
+
 
 .information-buttons {
   display: flex;
@@ -91,9 +110,30 @@ p {
   padding-bottom: 9px;
   padding-left: 11px;
   gap: 8px;
+}
 
+ .linkedin-button {
+  background-color: #0082c0;
+  color: #fff;
+  
+}
+
+.linkedin-button img {
+  filter: brightness(0) invert(1)
+}
+
+.body-text {
+  padding: 20px 0px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 40px;
 }
 
 .footer-img {
     filter: brightness(0) invert(1)
 }
+

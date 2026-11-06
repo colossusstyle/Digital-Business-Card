@@ -15,7 +15,7 @@ export default function InformationBlock() {
                 <img src={mailIcon} alt="email icon" />
                 email
                 </button> 
-                <button>
+                <button className="linkedin-button">
                     <img src={linkedinIcon} alt="linkedin icon" />
                     linkedin
                 </button>
